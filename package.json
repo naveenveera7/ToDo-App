@@ -1,6 +1,6 @@
 {
   "name": "todo-app",
-  "homepage": "https://naveenveera7.github.io/ToDo-App",
+  "homepage": "https://naveenveera7.github.io/ToDo-App/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
